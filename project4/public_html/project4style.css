@@ -1,0 +1,59 @@
+
+/* 
+    Created on : Sep 19, 2017, 9:45:22 AM
+    Author     : Waiyat Hamdani
+    prof: Ryan Fisher
+    html code from prof. Ryan Fisher
+    mission: to create CSS code to support html code from prof Ryan.
+*/
+
+h1{
+    color: #cc3300;
+    text-align: center;
+}
+h2{
+    color: #333333;    
+}
+h4 i{
+    color: gold;
+}
+
+body {
+    background-color: #999999; 
+    font-family: Verdana, arial, sans-serif; 
+    margin: 30px;
+}
+ul {
+    line-height: 1.5em; 
+    text-align:center; 
+    vertical-align: middle; 
+    list-style-image:url('bullet.gif'); /* give the image bullet as a li point */
+}
+a{
+    text-decoration: none; 
+    color: red; 
+    font-weight: bold; 
+}
+a:hover {
+    color: white; 
+    background-color: red;
+}
+p.studytip:first-of-type:first-line {  
+    font-size: 18pt; 
+    color: #660000; 
+    font-variant: small-caps; 
+    text-decoration: underline; 
+}
+.notice { 
+    position: relative; 
+    left: 20px; 
+    top: 10px; 
+    font-size: 10pt; 
+    color: brown; 
+    background-color: rgb(255, 255, 240); 
+    border: 3px inset #cc3300; 
+    width: 230px;
+}
+div.notice p {
+    margin: 15px; 
+}
